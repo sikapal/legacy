@@ -2,10 +2,12 @@ import React from 'react'
 import skolar from "../assets/icons/skolarr.png"
 import sipoh from "../assets/icons/sipoh.png"
 import nets from "../assets/icons/Nets.jpg"
+import inchtech from "../assets/icons/inchtech.png"
 import GernickDesign from "../assets/icons/GernickDesign.jpg"
 import coveriot from "../assets/icons/coveriot.png"
 import freemopay from "../assets/icons/freemopay.jpg"
-import company7 from "../assets/icons/company7.png"
+import autoecole from "../assets/icons/autoecole.jpg"
+
 import { motion } from "framer-motion"
 
 const Clients = () => {
@@ -126,6 +128,19 @@ const Clients = () => {
                             className='text-brandPrimary font-bold'>Gernick Design</motion.p>
 
                     </div>
+
+                    <div className='flex flex-col'>
+                        <motion.img initial="initial"
+                            animate="animate"
+                            variants={iconVariants(2.5)}
+                            src={inchtech} alt="company" />
+                        <motion.p
+                            initial="initial"
+                            animate="animate"
+                            variants={iconVariants2(1.5)}
+                            className='text-brandPrimary font-bold'>Inchtech</motion.p>
+
+                    </div>
                     <div className='flex flex-col'>
                         <motion.img initial="initial"
                             animate="animate"
@@ -142,12 +157,13 @@ const Clients = () => {
                         <motion.img initial="initial"
                             animate="animate"
                             variants={iconVariants(2.5)}
-                            src={company7} alt="company" />
+                            src={autoecole} alt="company" 
+                            className='w-14 h-14'/>
                         <motion.p
                             initial="initial"
                             animate="animate"
                             variants={iconVariants2(1.5)}
-                            className='text-brandPrimary font-bold'>Auto école</motion.p>
+                            className='text-brandPrimary font-bold'>Auto école la Marseillaise</motion.p>
 
                     </div>
                 </div>

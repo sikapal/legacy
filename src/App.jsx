@@ -8,6 +8,7 @@ import About from './components/About'
 import Products from './components/Products'
 import OurServices from './components/OurServices'
 import Footer from './components/MyFooter'
+import { Helmet } from "react-helmet";
 
 
 
@@ -21,9 +22,7 @@ function App() {
     <About/>
     <OurServices/>
     <Clients/>
-    
     <Products/>
-   
     <Footer/>
    </div>
   
