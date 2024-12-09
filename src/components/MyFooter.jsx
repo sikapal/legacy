@@ -21,22 +21,25 @@ const MyFooter = () => {
             <div>
               <Footer.Title title="contactez-nous" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Whatsapp</Footer.Link>
-                <Footer.Link href="#">(+237)699617645</Footer.Link>
-                <Footer.Link href="#">(+237)621602124</Footer.Link>
+                <Footer.Link href="https://wa.me/237690178644" target="_blank" rel="noopener noreferrer">
+                  Whatsapp
+                </Footer.Link>
+
+                <Footer.Link href="#">(+237)695030544</Footer.Link>
+                <Footer.Link href="#">(+237)690178644</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
               <Footer.Title title="Suivez-nous sur" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Whatsapp</Footer.Link>
+                <Footer.Link href="https://whatsapp.com/channel/0029Vay4YTy1nozF1zNfGT0M" target="_blank" rel="noopener noreferrer">Whatsapp</Footer.Link>
                 <Footer.Link href="#">Twitter</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
               <Footer.Title title="Legal" />
               <Footer.LinkGroup col>
-               
+
                 <Footer.Link href="">Politique de confidentialité</Footer.Link>
                 <Footer.Link href="">Termes &amp; Conditions</Footer.Link>
 

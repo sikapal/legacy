@@ -20,11 +20,16 @@ const Home = () => {
                             </h1>
                             <p className='text-white text-base mt-6 italic  justify-center'>AVEC SUP'PTIC LEGACY, REECRIVONS L'HISTOIRE ET CREONS UN HERITAGE </p>
 
-                               <div className='flex flex-row '>
+                            <div className='flex flex-row '>
 
-                               <button className='bg-red-500 text-white p-4 rounded-xl mt-6 mr-4'>Contactez-nous</button> 
-                               <button className='bg-none border hover:bg-white hover:text-black text-white p-4 rounded-xl mt-6'>Rejoignez notre mouvement</button>   
-                               </div>
+                                <button className='bg-red-700 text-white p-4 rounded-xl mt-6 mr-4'
+                                    onClick={() => window.open("https://wa.me/237690178644?text=Bonjour,%20j'aimerais%20avoir%20plus%20d'informations","_blank")}
+                                >Contactez-nous</button>
+                                <button className='bg-none border hover:bg-white hover:text-black text-white p-4 rounded-xl mt-6'
+                                        onClick={() => window.open("https://chat.whatsapp.com/Kmh1nwcPGrq70ZubDchjrk", "_blank")}
+
+                                >Rejoignez notre mouvement</button>
+                            </div>
                         </div>
                     </div>
 

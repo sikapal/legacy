@@ -1,13 +1,10 @@
 import React from 'react'
-import image1 from '../assets/icons/membership.png'
-import image2 from '../assets/icons/association.png'
-import image3 from '../assets/icons/group-club.png'
-import company1 from "../assets/icons/company1.png"
-import company2 from "../assets/icons/company2.png"
-import company3 from "../assets/icons/company3.png"
-import company4 from "../assets/icons/company4.png"
-import company5 from "../assets/icons/company5.png"
-import company6 from "../assets/icons/company6.png"
+import skolar from "../assets/icons/skolarr.png"
+import sipoh from "../assets/icons/sipoh.png"
+import nets from "../assets/icons/Nets.jpg"
+import GernickDesign from "../assets/icons/GernickDesign.jpg"
+import coveriot from "../assets/icons/coveriot.png"
+import freemopay from "../assets/icons/freemopay.jpg"
 import company7 from "../assets/icons/company7.png"
 import { motion } from "framer-motion"
 
@@ -65,7 +62,9 @@ const Clients = () => {
                         <motion.img initial="initial"
                             animate="animate"
                             variants={iconVariants(2.5)}
-                            src={company1} alt="company" />
+                            src={skolar} alt="company" 
+                            className='w-14 h-14'
+                            />
 
                         <motion.p
                             initial="initial"
@@ -79,62 +78,64 @@ const Clients = () => {
                         <motion.img initial="initial"
                             animate="animate"
                             variants={iconVariants(2)}
-                            src={company2} alt="company" />
+                            src={coveriot} alt="company" />
 
                         <motion.p
                             initial="initial"
                             animate="animate"
                             variants={iconVariants2(1.5)}
-                            className='text-brandPrimary font-bold'>SKOLAR</motion.p>
+                            className='text-brandPrimary font-bold'>Coveriot</motion.p>
 
                     </div>
                     <div className='flex flex-col'>
                         <motion.img initial="initial"
                             animate="animate"
                             variants={iconVariants(1.5)}
-                            src={company3} alt="company" />
+                            src={nets} alt="company" 
+                            className='w-16 h-14'/>
 
                         <motion.p
                             initial="initial"
                             animate="animate"
                             variants={iconVariants2(1.5)}
-                            className='text-brandPrimary font-bold'>SKOLAR</motion.p>
-
-                    </div>
-                    <div className='flex flex-col'>
-                        <motion.img initial="initial"
-                            animate="animate"
-                            variants={iconVariants(2.5)}
-                            src={company4} alt="company" />
-                        <motion.p
-                            initial="initial"
-                            animate="animate"
-                            variants={iconVariants2(1.5)}
-                            className='text-brandPrimary font-bold'>SKOLAR</motion.p>
+                            className='text-brandPrimary font-bold'>NETS TELECOM</motion.p>
 
                     </div>
                     <div className='flex flex-col'>
                         <motion.img initial="initial"
                             animate="animate"
                             variants={iconVariants(2.5)}
-                            src={company5} alt="company" />
+                            src={sipoh} alt="company" />
                         <motion.p
                             initial="initial"
                             animate="animate"
                             variants={iconVariants2(1.5)}
-                            className='text-brandPrimary font-bold'>SKOLAR</motion.p>
+                            className='text-brandPrimary font-bold'>SIPOH</motion.p>
 
                     </div>
                     <div className='flex flex-col'>
                         <motion.img initial="initial"
                             animate="animate"
                             variants={iconVariants(2.5)}
-                            src={company6} alt="company" />
+                            src={GernickDesign} alt="company"
+                            className='w-14 h-14' />
                         <motion.p
                             initial="initial"
                             animate="animate"
                             variants={iconVariants2(1.5)}
-                            className='text-brandPrimary font-bold'>SKOLAR</motion.p>
+                            className='text-brandPrimary font-bold'>Gernick Design</motion.p>
+
+                    </div>
+                    <div className='flex flex-col'>
+                        <motion.img initial="initial"
+                            animate="animate"
+                            variants={iconVariants(2.5)}
+                            src={freemopay} alt="company" />
+                        <motion.p
+                            initial="initial"
+                            animate="animate"
+                            variants={iconVariants2(1.5)}
+                            className='text-brandPrimary font-bold'>Freemo pay</motion.p>
 
                     </div>
                     <div className='flex flex-col'>
@@ -146,7 +147,7 @@ const Clients = () => {
                             initial="initial"
                             animate="animate"
                             variants={iconVariants2(1.5)}
-                            className='text-brandPrimary font-bold'>SKOLAR</motion.p>
+                            className='text-brandPrimary font-bold'>Auto école</motion.p>
 
                     </div>
                 </div>

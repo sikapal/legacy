@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutImg from '../assets/team-01.jpeg'
+import aboutImg from '../assets/team.jpg'
 import stat1 from '../assets/icons/stat1.png'
 import stat2 from '../assets/icons/stat2.png'
 import stat3 from '../assets/icons/stat3.png'
@@ -49,7 +49,7 @@ const About = () => {
                         transition={{ duration: 1 }}
                     >
                         <img
-                           className='h-[400px] mt-5'
+                            className='h-[400px] mt-5 rounded-2xl'
                             src={aboutImg} alt="aboutImg" />
                     </motion.div>
                     <motion.div
@@ -63,21 +63,28 @@ const About = () => {
                             initial={{ opacity: 0, x: 100 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 1, delay: 1 }}
-                            className='text-4xl text-brandPrimary font-semibold mb-4 md:w-4/5'>
+                            className='text-4xl text-center text-brandPrimary mt-5 font-semibold mb-4 md:w-4/5'>
                             SUPPTIC-LEGACY
                         </motion.h2>
                         <p
 
-                            className='md:w-3/4 text-sm text-neutralGrey mb-8 '>
-                            After three years of dedicated research, development and testing, our team of experts has crafted a cutting-edge VoIp solution tailored to the unique needs of national and international organizations.
-                            Leveraging our expertise and industry Insights, we've designed a scalable, secure and intuitive platform that streamlines communication, enhances collaboration and fuels growth.
-                            After three years of dedicated research, development and testing, our team of experts has crafted a cutting-edge VoIp solution tailored to the unique needs of national and international organizations.
-                            Leveraging our expertise and industry Insights, we've designed a scalable, secure and intuitive platform that streamlines communication, enhances collaboration and fuels growth.
-                      
+                            className='md:w-3/4 text-sm text-black mb-8 text-justify'>
+                            SUPPTIC Legacy est un projet ambitieux porté par une équipe dynamique et engagée,
+                            avec à sa tête <span className='font-bold'>Ahmed Mounir</span>, un leader visionnaire passionné par l’évolution et le rayonnement de notre institution.
+                            Cette initiative rassemble des étudiants de différentes classes et spécialités,
+                            unis par une volonté commune de transformer SUPPTIC en un espace d’apprentissage,
+                            d’innovation et de collaboration toujours plus performant.
+                            <span className='font-bold'> SUPPTIC Legacy </span> aspire à : <br />
+
+                            <li className='ml-5'>Promouvoir un cadre académique et social propice à l’épanouissement de chaque étudiant.<br /></li>
+                            <li className='ml-5'> Encourager des initiatives qui reflètent les valeurs de respect, d’unité et de dépassement de soi.<br /></li>
+                            <li className='ml-5'> Mettre en place des projets concrets pour améliorer le quotidien des étudiants et renforcer la notoriété de SUPPTIC.<br /> </li>
+                            Dirigée par Ahmed Mounir, l’équipe SUPPTIC Legacy est composée d’étudiants issus de diverses filières et promotions, chacun apportant une expertise unique et une perspective enrichissante.
+                            Cette diversité est le moteur d’une réflexion collective et d’actions innovantes pour répondre aux besoins réels des étudiants et relever les défis de notre époque.
                         </p>
-                    
-            
-                    </motion.div> 
+
+
+                    </motion.div>
 
                 </div>
 
@@ -100,7 +107,7 @@ const About = () => {
                             whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 1 }} className='md:w-3/4 text-sm text-neutralGrey mb-8  mx-4'>
-                            Hard work and determination is the key to how success
+                           Le travail en équipe! Bien plus qu'une simple collaboration 
                         </motion.p>
 
                     </div>
@@ -124,7 +131,7 @@ const About = () => {
                                     initial="initial"
                                     animate="animate"
                                     variants={iconVariants(2)}
-                                    src={stat3} alt="stats" />
+                                    src={stat2} alt="stats" />
 
                                 <div>
                                     <h4 className=' text-2xl text-neutralDGrey font-semibold'>+200</h4>
@@ -140,7 +147,7 @@ const About = () => {
                                     initial="initial"
                                     animate="animate"
                                     variants={iconVariants(2)}
-                                    src={stat2} alt="stats" />
+                                    src={stat3} alt="stats" />
 
                                 <div>
                                     <h4 className=' text-2xl text-neutralDGrey font-semibold'>+15 </h4>
