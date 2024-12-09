@@ -3,6 +3,7 @@ import { FaArrowRight } from 'react-icons/fa6'
 import service1 from '../assets/Service1.jpg'
 import service2 from '../assets/Service2.jpg'
 import service3 from '../assets/Service3.jpg'
+import service4 from '../assets/Service4.jpg'
 import { motion } from "framer-motion"
 
 const imageVariants = (duration) => ({
@@ -39,9 +40,9 @@ const OurServices = () => {
 
     const services = [
         { id: 1, Title: "PLAN ACADEMIQUE", action1: "Séminaires d'orientations",action2:"Concours Projets",action3:"Information sur les projets extra scolaires",action4:"Assistance et suivi des étudiants(L1 et L2 et L3 classique et alternance) lors des sessions normales et des rattrapages (cours gratuits.)",action5:"Accompagnement lors des PFE pour les Licence 3 et Master 2",action6:"Assistance à l’obtention de bourses academiques",action7:"Accompagnement des L3 ET Master 2 pour les journées de soutenances", image: service1 },
-        { id: 2, Title: "PLAN PROFESSIONEL", action1: "Présentation des startups ",action2:"Visite d’entreprise",action3:"Voyage, excursion dans les centres et entreprises",action4:"Présentation des différentes opportunités de création d’entreprise",action5:"Stage académiques et professionnel avec nos partenaires",action6:"Assistance à l’obtention de bourses academiques", image: service1 },
-        { id: 3, Title: "PLAN CULTUREL", action1: "Journée porte ouverte",action2:"Journée culturelle",action7:"Valorisation des différents clubs de SUP’PTIC ",action4:"Organisation des journées campus propres",action5:"Conférence sur les TICs, le numérique et les innovations.",action6:"Visite d’un site culturelle ",action3:"Bal de fin d’année ", image: service1 },
-        { id: 4, Title: "PLAN SPORTIF", action1: "Coupe du directeur et championnat de football (homme et femme) ",action2:"Organisation des matchs inter écoles.",action3:"Championnat de basketballs",action4:"Accompagnement aux qualifications pour le jeux universitaires ", image: service1 },
+        { id: 2, Title: "PLAN PROFESSIONEL", action1: "Présentation des startups ",action2:"Visite d’entreprise",action3:"Voyage, excursion dans les centres et entreprises",action4:"Présentation des différentes opportunités de création d’entreprise",action5:"Stage académiques et professionnel avec nos partenaires",action6:"Assistance à l’obtention de bourses academiques", image: service2 },
+        { id: 3, Title: "PLAN CULTUREL et SOCIAL", action1: "Journée porte ouverte",action2:"Journée culturelle",action7:"Valorisation des différents clubs de SUP’PTIC ",action4:"Organisation des journées campus propres",action5:"Conférence sur les TICs, le numérique et les innovations.",action6:"Visite d’un site culturelle ",action3:"Bal de fin d’année ", image: service3 },
+        { id: 4, Title: "PLAN SPORTIF", action1: "Coupe du directeur et championnat de football (homme et femme) ",action2:"Organisation des matchs inter écoles.",action3:"Championnat de basketballs",action4:"Accompagnement aux qualifications pour le jeux universitaires ", image: service4 },
        
     ]
     return (

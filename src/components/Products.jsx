@@ -1,5 +1,6 @@
 import React from 'react'
 import banner3 from "../assets/moses.jpg"
+import banner1 from "../assets/tristan.jpg"
 import auto from "../assets/auto.jpg"
 import { motion } from "framer-motion"
 
@@ -30,17 +31,22 @@ const Products = () => {
                         transition={{ duration: 1.5 }}
                         className='md:w-3/5 mx-4'>
                         <h2 className='text-4xl text-red-700 font-semibold mb-4 md:w-4/5'>
-                            The quality of the projets of Sup'ptic Legacy makes me believe in them
+                           Quelques mots de Dji Tristan 
                         </h2>
                         <p className='md:w-3/4 text-sm text-white mb-8 text-justify'>
-                            I'm PApa Doe CEO OPEUTAH Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
-                            augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit
-                            erat a magna. Donec quis erat at libero ultrices mollis. In hac
-                            habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi
-                            facilisis finibus. In euismod augue vitae nisi ultricies,
-                            non aliquet urna tincidunt. Integer in nisi eget nulla commodo
-                            faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero.
-                            Donec consectetur faucibus ipsum id gravida.
+                            Je tiens à exprimer tout mon soutien au mouvement Legacy et à son équipe dynamique. En tant que CEO de FREEMO PAY, une entreprise qui prône l'innovation, la collaboration et l'ambition de transformer les secteurs dans lesquels nous évoluons, je reconnais dans Legacy les mêmes valeurs qui nous animent.
+
+                            Legacy, sous la direction de Ahmed Mounir et de toute son équipe, incarne une vision audacieuse et un engagement à faire évoluer l’environnement étudiant de SUPPTIC vers des horizons plus vastes et plus prospères. Leur initiative ne se limite pas seulement à des discours, mais se traduit par des actions concrètes visant à améliorer les conditions de vie et d’étude des étudiants. Leur capacité à unifier et à motiver les étudiants autour d’un même objectif est admirable.
+
+                            Chez FREEMO PAY, nous croyons fermement en la force du collectif et en la puissance des idées nouvelles. Nous soutenons pleinement le projet Legacy, qui est bien plus qu’un simple mouvement politique, mais une plateforme d’opportunités pour les étudiants, où l’innovation et la solidarité sont au cœur de chaque action. Ce type de leadership est exactement ce dont nous avons besoin pour construire un avenir meilleur.
+
+                            De plus, FREEMO PAY est fière d’offrir des stages académiques aux étudiants de SUPPTIC, leur permettant d'acquérir une expérience précieuse dans le domaine de la fintech et des technologies numériques. Nous croyons que ces opportunités de stage contribuent non seulement à leur développement professionnel, mais également à leur préparation pour un futur prometteur dans des secteurs en constante évolution.
+
+                            Nous sommes impatients de voir l’impact positif que Legacy aura sur la communauté de SUPPTIC et au-delà. FREEMO PAY sera toujours là pour encourager et soutenir de telles initiatives qui créent de la valeur et transforment le quotidien des étudiants.
+
+                            Je vous invite tous à rejoindre ce mouvement de changement et à apporter votre contribution à cette vision ambitieuse.
+
+
                         </p>
 
 
@@ -49,8 +55,8 @@ const Products = () => {
                         whileInView={{ opacity: 1, x: 0 }}
                         initial={{ opacity: 0, x: -200 }}
                         transition={{ duration: 2 }}>
-                        <img src={banner3} alt="aboutImg"
-                            className='w-[400px] h-[400px] rounded-2xl'
+                        <img src={banner1} alt="aboutImg"
+                            className='w-[400px] h-[500px] rounded-2xl'
                         />
                     </motion.div>
 
