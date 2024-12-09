@@ -49,7 +49,7 @@ const About = () => {
                         transition={{ duration: 1 }}
                     >
                         <img
-                            className='h-[400px] mt-5 rounded-2xl'
+                            className='h-[400px] mt-5 mx-4 rounded-2xl'
                             src={aboutImg} alt="aboutImg" />
                     </motion.div>
                     <motion.div

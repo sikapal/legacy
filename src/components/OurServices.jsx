@@ -38,24 +38,23 @@ const divVariants = (duration) => ({
 const OurServices = () => {
 
     const services = [
-        { id: 1, Title: "PLAN ACADEMIQUE", description: "Our software are personnalised for you to have a better experience", image: service1 },
-        { id: 2, Title: "PLAN PROFESSIONNEL", description: "We deploy your Local Network with the necesary security mesures", image: service2 },
-        { id: 3, Title: "PLAN CULTUREL", description: "We develop  web and mobile applications using the latest technologies", image: service3 },
-        { id: 4, Title: "PLAN SPORTIF", description: "Our software are personnalised for you to have a better experience", image: service1 },
-        { id: 5, Title: "PLAN SPORTIF", description: "We deploy your Local Network with the necesary security mesures", image: service2 },
-        { id: 6, Title: "PLAN SPORTIF", description: "We develop  web and mobile applications using the latest technologies", image: service3 }
+        { id: 1, Title: "PLAN ACADEMIQUE", action1: "Séminaires d'orientations",action2:"Concours Projets",action3:"Information sur les projets extra scolaires",action4:"Assistance et suivi des étudiants(L1 et L2 et L3 classique et alternance) lors des sessions normales et des rattrapages (cours gratuits.)",action5:"Accompagnement lors des PFE pour les Licence 3 et Master 2",action6:"Assistance à l’obtention de bourses academiques",action7:"Accompagnement des L3 ET Master 2 pour les journées de soutenances", image: service1 },
+        { id: 2, Title: "PLAN PROFESSIONEL", action1: "Présentation des startups ",action2:"Visite d’entreprise",action3:"Voyage, excursion dans les centres et entreprises",action4:"Présentation des différentes opportunités de création d’entreprise",action5:"Stage académiques et professionnel avec nos partenaires",action6:"Assistance à l’obtention de bourses academiques", image: service1 },
+        { id: 3, Title: "PLAN CULTUREL", action1: "Journée porte ouverte",action2:"Journée culturelle",action7:"Valorisation des différents clubs de SUP’PTIC ",action4:"Organisation des journées campus propres",action5:"Conférence sur les TICs, le numérique et les innovations.",action6:"Visite d’un site culturelle ",action3:"Bal de fin d’année ", image: service1 },
+        { id: 4, Title: "PLAN SPORTIF", action1: "Coupe du directeur et championnat de football (homme et femme) ",action2:"Organisation des matchs inter écoles.",action3:"Championnat de basketballs",action4:"Accompagnement aux qualifications pour le jeux universitaires ", image: service1 },
+       
     ]
     return (
         <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto my-12' id='service'>
             <div className='text-center md:w-1/2 mx-auto'>
-                <motion.h2
+                <h2
                     whileInView={{ opacity: 1, y: 0 }}
                     initial={{ opacity: 0, y: -200 }}
                     transition={{ duration: 1.5 }}
 
-                    className='text-4xl text-red-700  mb-4 font-semibold'>
+                    className='text-4xl text-white  mb-4 font-semibold'>
                     NOTRE PLAN D'ACTION
-                </motion.h2>
+                </h2>
                 <motion.p
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}
@@ -70,7 +69,7 @@ const OurServices = () => {
             <div
 
 
-                className='grid  lg:grid-cols-3 sm:grid-cols-1 grid-cols-1 gap-8 items-center justify-center '>
+                className='grid lg:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-8 items-center justify-center '>
                 {
                     services.map(service =>
                         <motion.div
@@ -84,19 +83,24 @@ const OurServices = () => {
                                 animate="animate"
                                 variants={imageVariants(6)}
                                 src={service.image} alt="service-img" className='ml-auto rounded-3xl' />
-                            <motion.div
-                            initial="initial"
-                            animate="animate"
-                            variants={divVariants(6)}
-                            className='text-center px-5 py-8  bg-white shadow-lg rounded-md md:w-3/4 mx-auto items-center justify-center absolute left-0
+                            <div
+                           
+                            className='text-center px-5 py-8   bg-white shadow-lg rounded-md md:w-3/4 mx-auto items-center justify-center absolute left-0
                                          right-0 -bottom-12'>
-                                <h3 className='text-2xl font-semibold text-neutralDGrey mb-3 '>{service.Title}</h3>
-                                <div className='flex items-center justify-center gap-8 '></div>
-                                <p className='text-sm text-neutralGrey mb-3 text-justify'>{service.description}
-                                    <br />  
-                                </p>
+                                <h3 className='text-2xl font-bold text-neutralDGrey mb-3 '>{service.Title}</h3>
+                            
+                                {Object.keys(service).map(key => {
+                                    if (key.startsWith('action') && service[key]) {
+                                        return (
+                                            <li key={key} className='text-sm text-neutralGrey mb-3 text-justify'>
+                                                {service[key]}
+                                            </li>
+                                        )
+                                    }
+                                    return null;
+                                })}
 
-                            </motion.div>
+                            </div>
                         </motion.div>)
                 }
             </div>
