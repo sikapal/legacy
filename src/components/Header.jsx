@@ -58,9 +58,9 @@ const Header = () => {
         <header className="w-full bg-brandPrimary md:bg-transparent fixed top-0 left-0 right-0 ">
             <nav className={`py-4 lg:px-1 px-4 ${isSticky ? "sticky top-0 left-0 right-0  bg-brandPrimary duration-300" : ""}`}>
                 <div className="flex justify-between items-center text-base  bg-brandPrimary gap-8">
-                    <div className="flex justify-between gap-10">
+                    <div className="flex justify-between gap-10 md:gap-2">
                         <a href="" className='text-2xl font-semibold flex items-center space-x-3'><img src={logo} alt="logo" className='w-10  inline-block items-center' /><span className='text-white'>SUP'PTIC LEGACY</span></a>
-                        <ul className="py-2 md:flex space-x-12 hidden">
+                        <ul className=" ml-4 py-2 md:flex md:flex-shrink md:space-x-6 space-x-8 hidden">
                             {
                                 navItems.map(({ link, path }) => <Link to={path} spy={true} smooth={true} offset={-100} key={path} duration={500} className="block text-base text-white hover:text-white first:font-meduim cursor-pointer" >{link}</Link>)
                             }
@@ -75,7 +75,7 @@ const Header = () => {
                             initial="initial"
                             animate="animate"
                             variants={buttonVariants(3)}
-                            className="bg-red-700 border text-white text-2xl py-2 px-4 transition-all duration-300
+                            className="bg-red-700 border md:text-sm text-white text-2xl py-2 px-4 transition-all duration-300
                              rounded-2xl hover:bg-[#223478]
                                   "
                             onClick={() => window.open("https://chat.whatsapp.com/Kmh1nwcPGrq70ZubDchjrk", "_blank")}

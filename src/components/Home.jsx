@@ -7,10 +7,10 @@ const Home = () => {
     return (
         <div className='bg-brandPrimary mt-4' id='home'>
             <div className='px-4 lg:px-14 max-w-screen-2xl mx-2 min-h-screen h-screen'>
-                <div className='w-full mx-2 duration-8000'>
+                <div className='w-full mx-2 py-4 duration-8000'>
                     <div className="my-28 md:my-8 md:mx-2 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
                         <div>
-                            <img className='mt-6 sm:w-[200px] sm:h-[200px] md:w-[500px] md:h-[500px]  rounded-full lg:w-[600px] lg:h-[600px] pr-4 ' src={banner1} alt="img" />
+                            <img className='mt-6 sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px]  rounded-3xl lg:w-[500px] lg:h-[500px] pr-4 ' src={banner1} alt="img" />
                         </div>
                         {/*hero text here*/}
 
