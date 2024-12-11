@@ -49,7 +49,7 @@ const About = () => {
                         transition={{ duration: 1 }}
                     >
                         <img
-                            className='h-[400px] mt-5 mx-4 rounded-2xl'
+                            className='h-[400px] mt-5 px-4 rounded-3xl'
                             src={aboutImg} alt="aboutImg" />
                     </motion.div>
                     <motion.div
@@ -63,15 +63,15 @@ const About = () => {
                             initial={{ opacity: 0, x: 100 }}
                             animate={{ x: 0, opacity: 1 }}
                             transition={{ duration: 1, delay: 1 }}
-                            className='text-4xl text-center text-brandPrimary mt-5 font-semibold mb-4 md:w-4/5'>
+                            className='md:mt-5 text-4xl text-center text-brandPrimary  font-semibold mb-4 md:w-4/5'>
                             SUPPTIC-LEGACY
                         </motion.h2>
                         <p
 
                             className='md:w-3/4 text-sm text-black mb-8 text-justify'>
-                            SUPPTIC Legacy est un projet ambitieux porté par une équipe dynamique et engagée,
-                            avec à sa tête <span className='font-bold'>Ahmed Mounir</span>, un leader visionnaire passionné par l’évolution et le rayonnement de notre institution.
-                            Cette initiative rassemble des étudiants de différentes classes et spécialités,
+                            <span className='font-bold'>SUPPTIC Legacy</span> est un projet ambitieux porté par une équipe dynamique et engagée,
+                            avec à sa tête <span className='font-bold'>Ahmed Mounir Linjouom</span>, un leader visionnaire passionné par l’évolution et le rayonnement de notre institution.
+                            Cette initiative rassemble des étudiants de différentes classes et spécialités,tant de Buea que de Yaoundé,
                             unis par une volonté commune de transformer SUPPTIC en un espace d’apprentissage,
                             d’innovation et de collaboration toujours plus performant.
                             <span className='font-bold'> SUPPTIC Legacy </span> aspire à : <br />
@@ -101,7 +101,7 @@ const About = () => {
                             initial={{ opacity: 0, x: -100 }}
                             transition={{ duration: 1 }}
                             className='text-4xl text-red-700 font-semibold mb-4 md:w-4/5 mx-4'>
-                            Rejoignez notre mouvement <br /> <br /><span className='text-brandPrimary pt-2'>Nous avons une grande équipe dédiée à la cause de SUP'PTIC </span>
+                            Rejoignez notre mouvement <br /> <br /><span className='text-brandPrimary pt-2'>Nous avons une grande équipe dédiée à la cause des etudiants de SUP'PTIC Yaoundé et SUP'PTIC Buea </span>
                         </motion.h2>
                         <motion.p
                             whileInView={{ opacity: 1, x: 0 }}
