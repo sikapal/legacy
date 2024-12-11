@@ -1,6 +1,12 @@
 import React from 'react'
 
+import service1 from '../assets/Service1.jpg'
+
 import service2 from '../assets/Service2.jpg'
+
+import service3 from '../assets/Service3.jpg'
+
+import service4 from '../assets/Service4.jpg'
 import { motion } from "framer-motion"
 
 const imageVariants = (duration) => ({
@@ -22,12 +28,12 @@ const imageVariants = (duration) => ({
 const OurServices = () => {
 
     const services = [
-        { id: 1, Title: "PLAN ACADEMIQUE", action1: "Séminaires d'orientations",action2:"Concours Projets",action3:"Information sur les projets extra scolaires",action4:"Assistance et suivi des étudiants(L1, L2 et L3 classique et alternance) pendant les sessions normales ",action5:"Accompagnement lors des PFE pour les Licence 3 ",action6:"Assistance à l’obtention de bourses d'études",action7:"Accompagnement des L3 ET Master 2 pour les journées de soutenances", image: service2 },
+        { id: 1, Title: "PLAN ACADEMIQUE", action1: "Séminaires d'orientations",action2:"Concours Projets",action3:"Information sur les projets extra scolaires",action4:"Assistance et suivi des étudiants(L1, L2 et L3 classique et alternance) pendant les sessions normales ",action5:"Accompagnement lors des PFE pour les Licence 3 ",action6:"Assistance à l’obtention de bourses d'études",action7:"Accompagnement des L3 ET Master 2 pour les journées de soutenances", image: service1 },
         { id: 2, Title: "PLAN PROFESSIONNEL", action1: "Présentation des startups",action2:"Visite d’entreprise",action3:"Excursion dans un centre touristique et en entreprise",action4:"Présentation des différentes opportunités de création d’entreprises",action5:"Stages académiques et professionnels avec nos partenaires",action6:"Assistance à l’obtention de bourses academiques",action7:"Facilitation pour les certifications Microsoft", image: service2 },
        
-        { id: 3, Title: "PLAN SOCIO-CULTUREL", action1: "Journée porte ouverte",action2:"Journée culturelle",action3:"Valorisation des différents clubs ",action4:"Organisation des journées campus propres",action5:"Conférence sur les TICs, le numérique et les innovations.",action6:"Visite d’un site culturelle ",action7:"Bal de fin d’année ", image: service2 },
+        { id: 3, Title: "PLAN SOCIO-CULTUREL", action1: "Journée porte ouverte",action2:"Journée culturelle",action3:"Valorisation des différents clubs ",action4:"Organisation des journées campus propres",action5:"Conférence sur les TICs, le numérique et les innovations.",action6:"Visite d’un site culturelle ",action7:"Bal de fin d’année ", image: service3 },
         
-         { id: 4, Title: "PLAN SPORTIF", action1: "Coupe du directeur  (homme et femme) ",action2:"Championnat de Football masculin",action3:"Championnat de football Féminin",action4:"Organisation des matchs inter-écoles.",action5:"Championnat de basketball",action6:"Accompagnement aux qualifications pour le jeux universitaires ",action7:"Organisation d'un championnat d'échecs et de dames", image: service2 },
+         { id: 4, Title: "PLAN SPORTIF", action1: "Coupe du directeur  (homme et femme) ",action2:"Championnat de Football masculin",action3:"Championnat de football Féminin",action4:"Organisation des matchs inter-écoles.",action5:"Championnat de basketball",action6:"Accompagnement aux qualifications pour le jeux universitaires ",action7:"Organisation d'un championnat d'échecs et de dames", image: service4 },
         
     ]
     return (

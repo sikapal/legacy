@@ -1,6 +1,6 @@
 
 import React from 'react'
-import banner1 from "../assets/team-01.jpg"
+import banner1 from "../assets/team-01.jpeg"
 
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
                 <div className='w-full mx-2 py-4 duration-8000'>
                     <div className="my-28 md:my-8 md:mx-2 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
                         <div>
-                            <img className='mt-6 sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px]  rounded-3xl lg:w-[500px] lg:h-[500px] pr-4 ' src={banner1} alt="img" />
+                            <img className='mt-6 sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px]  rounded-3xl lg:w-[500px] lg:h-[600px] pr-4 ' src={banner1} alt="img" />
                         </div>
                         {/*hero text here*/}
 
