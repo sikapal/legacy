@@ -149,7 +149,7 @@ const Clients = () => {
                     className='text-black'> Nous avons une dixaine de partenaires qui croient en notre vision et avec qui les étudiants auront la chance d'évoluer avec</motion.p>
                 {/*company logo */}
 
-                <div className='my-12 flex  justify-between items-center gap-8'>
+                <div className='my-12 flex flex-wrap justify-between items-center gap-4'>
                     <div className='flex flex-col'>
                         <motion.img initial="initial"
                             animate="animate"
