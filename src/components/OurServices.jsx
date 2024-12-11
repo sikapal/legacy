@@ -62,7 +62,7 @@ const OurServices = () => {
                             whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: -100 }}
                             transition={{ duration: 2 }}
-                            key={service.id} className='mx-auto relative mb-12 cursor-pointer '>
+                            key={service.id} className='mx-auto relative mb-12 cursor-pointer mt-12'>
 
                             <motion.img
                                 initial="initial"
