@@ -79,7 +79,7 @@ const OurServices = () => {
                                 {Object.keys(service).map(key => {
                                     if (key.startsWith('action') && service[key]) {
                                         return (
-                                            <li key={key} className='text-sm text-neutralGrey pb-2 text-justify'>
+                                            <li key={key} className='text-sm text-black pb-2 text-justify'>
                                                 {service[key]}
                                             </li>
                                         )
