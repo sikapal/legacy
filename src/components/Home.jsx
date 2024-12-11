@@ -15,17 +15,17 @@ const Home = () => {
                         {/*hero text here*/}
 
                         <div className='md:w-1/2 '>
-                            <h1 className=' lg:text-8xl font-semibold  text-white md:w-3/4 -mt-2 leading-snug'>AHMED MOUNIR LINJOUOM
+                            <h1 className=' lg:text-8xl font-semibold sm:text-xl text-white md:w-3/4 -mt-2 leading-snug'>AHMED MOUNIR LINJOUOM
 
                             </h1>
-                            <p className='text-white text-base hidden lg:block mt-8 italic  justify-center'>AVEC SUP'PTIC LEGACY, REECRIVONS L'HISTOIRE ET CREONS UN HERITAGE </p>
+                            <p className='text-white text-base  mt-1 italic  justify-center'>Avec SUP'PTIC LEGACY, Réécrivons l'histoire et créons un héritage </p>
 
-                            <div className='flex flex-row '>
+                            <div className='flex flex-row  mt-0 sm:mt-8'>
 
-                                <button className='bg-red-700 text-white px-4  rounded-xl mt-1 mr-4'
+                                <button className='bg-red-700 text-white px-4 py-0 lg:py-4 rounded-xl mt-1 mr-4'
                                     onClick={() => window.open("https://wa.me/237690178644?text=Bonjour,%20j'aimerais%20avoir%20plus%20d'informations","_blank")}
                                 >Contactez-nous</button>
-                                <button className='bg-none border hover:bg-white hover:text-black text-white rounded-xl mt-2'
+                                <button className='bg-none border hover:bg-white hover:text-black text-white px-4 py-0 lg:py-4 rounded-xl mt-1 mr-4'
                                         onClick={() => window.open("https://chat.whatsapp.com/Kmh1nwcPGrq70ZubDchjrk", "_blank")}
 
                                 >Rejoignez notre mouvement</button>
