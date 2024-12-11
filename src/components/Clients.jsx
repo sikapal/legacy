@@ -3,7 +3,7 @@ import skolar from "../assets/icons/skolarr.png"
 import sipoh from "../assets/icons/sipoh.png"
 import nets from "../assets/icons/Nets.jpg"
 import inchtech from "../assets/icons/inchtech.png"
-import GernickDesign from "../assets/icons/GernickDesign.jpg"
+import GernickDesign from "../assets/icons/GernickDesign.jpeg"
 import coveriot from "../assets/icons/coveriot.png"
 import freemopay from "../assets/icons/freemopay.jpeg"
 import autoecole from "../assets/icons/autoecole.jpg"
@@ -184,7 +184,7 @@ const Clients = () => {
                             animate="animate"
                             variants={iconVariants(1.5)}
                             src={nets} alt="company" 
-                            className='w-16 h-14'/>
+                            className='w-18 h-14'/>
 
                         <motion.p
                             initial="initial"
@@ -210,7 +210,7 @@ const Clients = () => {
                             animate="animate"
                             variants={iconVariants(2.5)}
                             src={GernickDesign} alt="company"
-                            className='w-14 h-14' />
+                            className='w-18 h-14' />
                         <motion.p
                             initial="initial"
                             animate="animate"
@@ -248,7 +248,7 @@ const Clients = () => {
                             animate="animate"
                             variants={iconVariants(2.5)}
                             src={autoecole} alt="company" 
-                            className='w-14 h-14'/>
+                            className='w-18 h-14'/>
                         <motion.p
                             initial="initial"
                             animate="animate"
@@ -262,7 +262,7 @@ const Clients = () => {
                             animate="animate"
                             variants={iconVariants(2.5)}
                             src={wermap} alt="company" 
-                            className='w-14 h-14'/>
+                            className='w-16 h-14'/>
                         <motion.p
                             initial="initial"
                             animate="animate"
