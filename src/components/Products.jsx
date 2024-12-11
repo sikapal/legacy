@@ -1,23 +1,10 @@
 import React from 'react'
-import banner3 from "../assets/moses.jpg"
-import banner1 from "../assets/tristan.jpg"
+import banner3 from "../assets/moses1.jpeg"
+import tristan from "../assets/tristan.jpeg"
 import auto from "../assets/auto.jpg"
+import abou from "../assets/abou.jpg"
 import { motion } from "framer-motion"
 
-const buttonVariants = (duration) => ({
-    initial: { y: -10 },
-    animate: {
-        y: [20, -20],
-        transition: {
-            duration: duration,
-            ease: "linear",
-            repeat: Infinity,
-            repeatType: "reverse",
-        }
-    }
-
-}
-)
 const Products = () => {
     return (
         <div id='product'>
@@ -34,8 +21,8 @@ const Products = () => {
                             initial={{ opacity: 0, x: -200 }}
                             transition={{ duration: 2 }}
                             className='md:w-1/3 '>
-                            <img src={banner3} alt="aboutImg"
-                                className='w-[400px] h-[500px] rounded-3xl px-4'
+                            <img src={abou} alt="aboutImg"
+                                className='w-[500px] h-[500px] rounded-3xl px-4'
                             />
                         </motion.div>
 
@@ -43,18 +30,25 @@ const Products = () => {
                             <motion.div whileInView={{ opacity: 1, x: 0 }}
                                 initial={{ opacity: 0, x: 200 }}
                                 transition={{ duration: 2 }}>
-                                <h2 className='text-4xl text-red-700 font-semibold mb-4 md:w-4/5'> Quelques mots de Dji Tristan </h2>
-                                <p className='md:w-3/4 text-sm text-white mb-8 text-justify'> Je tiens à exprimer tout mon soutien au mouvement
-                                    Legacy et à son équipe dynamique.
-                                    En tant que CEO de FREEMO PAY, une entreprise qui prône l'innovation,
-                                    la collaboration et l'ambition de transformer les secteurs dans lesquels nous évoluons,
-                                    je reconnais dans Legacy les mêmes valeurs qui nous animent. Legacy, sous la direction de Ahmed Mounir
+                                <h2 className='text-4xl text-red-700 font-semibold mb-4 md:w-4/5'> Message du PDG de Coveriot SARL</h2>
+                                <p className='md:w-3/4 text-sm text-white mb-8 text-justify'>
+                                    En tant que PDG de Coveriot, je tiens à exprimer tout notre soutien à l’initiative <span className='font-bold'>Legacy</span>,
+                                    une vision ambitieuse qui incarne la collaboration, l’innovation et le progrès.
+                                    Chez Coveriot, nous partageons ces valeurs et nous croyons fermement en l’importance de bâtir un avenir où chaque talent peut s’épanouir pleinement.
 
+                                    Coveriot, en tant qu'acteur dans les domaines des Télécommunications, de l’Informatique,
+                                    des Technologies émergentes du numérique, et des Systèmes et Services de l'Internet des Objets,
+                                    s'engage à jouer un rôle actif dans cet écosystème. Nous sommes également spécialistes des Réseaux d’Objets,
+                                    et notre expertise nous permet de relever des défis technologiques de pointe.
 
-                                    et de toute son équipe, incarne une vision audacieuse et un engagement à faire évoluer l’environnement étudiant de SUPPTIC vers des horizons
-                                    plus vastes et plus prospères. Leur initiative ne se limite pas seulement à des discours, mais se traduit par des actions concrètes visant à améliorer les conditions de vie et d’étude des étudiants. Leur capacité à unifier et à motiver les étudiants autour d’un même objectif est admirable. Chez FREEMO PAY, nous croyons fermement en la force du collectif et en la puissance des idées nouvelles. Nous soutenons pleinement le projet Legacy, qui est bien plus qu’un simple mouvement politique, mais une plateforme d’opportunités pour les étudiants, où l’innovation et la solidarité sont au cœur de chaque action. Ce type de leadership est exactement ce dont nous avons besoin pour construire un avenir meilleur. De plus, FREEMO PAY est fière d’offrir des stages académiques aux étudiants de SUPPTIC, leur permettant d'acquérir une expérience précieuse dans le domaine de la fintech et des technologies numériques. Nous croyons que ces opportunités de stage contribuent non seulement à leur développement professionnel, mais également à leur préparation pour un futur prometteur dans des secteurs en constante évolution. Nous sommes impatients de voir l’impact positif que Legacy aura sur la communauté de SUPPTIC et au-delà. FREEMO PAY sera toujours là pour encourager et soutenir de telles initiatives qui créent de la valeur et transforment le quotidien des étudiants. Je vous invite tous à rejoindre ce mouvement de changement et à apporter votre contribution à cette vision ambitieuse. </p>
-                                <h5 className='text-white text-sm font-semibold mb-4'>CEO</h5>
-                                <p className='text-base text-white mb-8 font-bold'>FREEMO PAY</p>
+                                    Dans cette optique, nous garantissons l’offre de stages académiques aux étudiants de Sup'ptic de part notre partenariat avec le groupe Legacy.
+                                    Ce partenariat stratégique vise à offrir aux jeunes talents une opportunité concrète de développer leurs compétences au sein de projets innovants,
+                                    alignés sur les dernières tendances technologiques.
+
+                                    Par ce soutien, nous réaffirmons notre volonté de construire un avenir où la jeunesse, formée et inspirée, devient la pierre angulaire du développement
+                                    durable et de la transformation numérique. Ensemble avec Legacy, réecrivons l'histoire et créons un héritage! !</p>
+                                <h5 className='text-white text-sm font-semibold mb-4'>ABOUBAKRY ASSIDDIGOU</h5>
+                                <p className='text-base text-white mb-8 font-bold'>PDG COVERIOT SARL</p>
 
                             </motion.div>
                         </div>
@@ -85,7 +79,7 @@ const Products = () => {
                         <motion.div whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: 200 }}
                             transition={{ duration: 2 }}>
-                            <h2 className='text-4xl text-red-700 font-semibold mb-4 md:w-4/5'> A few words AFOPEZI MOSES </h2>
+                            <h2 className='text-4xl text-red-700 font-semibold mb-4 md:w-4/5'> A few words from AFOPEZI MOSES </h2>
 
                             <p className='md:w-4/5 text-sm text-black mb-8 leading-1 text-justify '>
 
@@ -107,8 +101,8 @@ const Products = () => {
                                 </span>
                             </p>
 
-                            <h5 className='text-brandPrimary text-xl font-semibold mb-4'>CEO</h5>
-                            <p className='text-base text-neuralGrey mb-8 font-bold'>SKOLAR</p>
+                            <h5 className='text-brandPrimary text-xl font-semibold mb-4'>Afopezi Moses</h5>
+                            <p className='text-base text-neuralGrey mb-8 font-bold'>CEO SKOLAR</p>
 
                         </motion.div>
                     </div>
@@ -120,15 +114,6 @@ const Products = () => {
             <div className='px lg:px-14 max-w-screen-2xl mx-auto my-8'>
                 <div className='md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12'>
 
-                    <motion.div
-                        whileInView={{ opacity: 1, x: 0 }}
-                        initial={{ opacity: 0, x: -200 }}
-                        transition={{ duration: 2 }}
-                        className='md:w-1/3 '>
-                        <img src={banner3} alt="aboutImg"
-                            className='w-[400px] h-[500px] rounded-3xl px-4'
-                        />
-                    </motion.div>
 
                     <div className='md:w-2/3 mx-4'>
                         <motion.div whileInView={{ opacity: 1, x: 0 }}
@@ -152,10 +137,70 @@ const Products = () => {
                         </motion.div>
                     </div>
 
+                    <motion.div
+                        whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, x: -200 }}
+                        transition={{ duration: 2 }}
+                        className='md:w-1/3 '>
+                        <img src={auto} alt="aboutImg"
+                            className='w-[400px] h-[400px] rounded-3xl px-4'
+                        />
+                    </motion.div>
+
+
 
                 </div>
 
             </div>
+
+            {/* other testimonies */}
+            <div className='px lg:px-14 max-w-screen-2xl mx-auto mt-8 bg-white'>
+                <div className='md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12'>
+
+                <motion.div
+                        whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, x: -200 }}
+                        transition={{ duration: 2 }}
+                        className='md:w-1/3 '>
+                        <img src={tristan} alt="aboutImg"
+                            className='w-[400px] h-[500px] rounded-3xl px-4 '
+                        />
+                    </motion.div>
+
+
+                    <div className='md:w-2/3 mx-4'>
+                        <motion.div whileInView={{ opacity: 1, x: 0 }}
+                            initial={{ opacity: 0, x: 200 }}
+                            transition={{ duration: 2 }}>
+                            <h2 className='text-4xl text-red-700 font-semibold mb-4 md:w-4/5 pt-4'> Message de Dji Tristan</h2>
+                            <p className='md:w-3/4 text-sm text-black mb-8 text-justify'>
+                                Je tiens à exprimer tout mon soutien au mouvement
+                                Legacy et à son équipe dynamique.
+                                En tant que CEO de FREEMO PAY, une entreprise qui prône l'innovation,
+                                la collaboration et l'ambition de transformer les secteurs dans lesquels nous évoluons,
+                                je reconnais dans Legacy les mêmes valeurs qui nous animent. Legacy, sous la direction de Ahmed Mounir
+
+
+                                et de toute son équipe, incarne une vision audacieuse et un engagement à faire évoluer l’environnement étudiant de SUPPTIC vers des horizons
+                                plus vastes et plus prospères. Leur initiative ne se limite pas seulement à des discours, mais se traduit par des actions concrètes visant à améliorer les conditions de vie et d’étude des étudiants. Leur capacité à unifier et à motiver les étudiants autour d’un même objectif est admirable. Chez FREEMO PAY, nous croyons fermement en la force du collectif et en la puissance des idées nouvelles. Nous soutenons pleinement le projet Legacy, qui est bien plus qu’un simple mouvement politique, mais une plateforme d’opportunités pour les étudiants, où l’innovation et la solidarité sont au cœur de chaque action. Ce type de leadership est exactement ce dont nous avons besoin pour construire un avenir meilleur. De plus, FREEMO PAY est fière d’offrir des stages académiques aux étudiants de SUPPTIC, leur permettant d'acquérir une expérience précieuse dans le domaine de la fintech et des technologies numériques. Nous croyons que ces opportunités de stage contribuent non seulement à leur développement professionnel, mais également à leur préparation pour un futur prometteur dans des secteurs en constante évolution.
+                                Nous sommes impatients de voir l’impact positif que Legacy aura sur la communauté de SUPPTIC et au-delà.
+
+                                FREEMO PAY sera toujours là pour encourager et soutenir de telles initiatives qui créent de la valeur et transforment le quotidien des étudiants.
+                                Je vous invite tous à rejoindre ce mouvement de changement et à apporter votre contribution à cette vision ambitieuse. </p>
+                            <h5 className='text-brandPrimary text-sm font-semibold mb-4'>CEO FREEMO PAY</h5>
+                            <p className='text-base text-brandPrimary mb-8 font-bold'>DJI TRISTAN</p>
+
+
+
+                        </motion.div>
+                    </div>
+
+                 
+
+                </div>
+
+            </div>
+
 
         </div>
     )

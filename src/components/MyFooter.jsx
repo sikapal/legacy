@@ -33,10 +33,10 @@ const MyFooter = () => {
               <Footer.Title title="Suivez-nous sur" />
               <Footer.LinkGroup col>
                 <Footer.Link href="https://whatsapp.com/channel/0029Vay4YTy1nozF1zNfGT0M" target="_blank" rel="noopener noreferrer">Whatsapp</Footer.Link>
-                <Footer.Link href="#">Twitter</Footer.Link>
+                
               </Footer.LinkGroup>
             </div>
-            <div>
+            {/* <div>
               <Footer.Title title="Legal" />
               <Footer.LinkGroup col>
 
@@ -44,7 +44,7 @@ const MyFooter = () => {
                 <Footer.Link href="">Termes &amp; Conditions</Footer.Link>
 
               </Footer.LinkGroup>
-            </div>
+            </div> */}
           </div>
         </div>
         <Footer.Divider />
