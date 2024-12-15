@@ -15,7 +15,7 @@ const Home = () => {
                         {/*hero text here*/}
 
                         <div className='md:w-1/2 '>
-                            <h1 className=' lg:text-8xl font-semibold sm:text-xl text-white md:w-3/4 -mt-2 leading-snug'>AHMED MOUNIR LINJOUOM
+                            <h1 className=' lg:text-8xl font-semibold sm:text-3xl md:text-4xl text-white md:w-3/4 -mt-2 '>AHMED MOUNIR LINJOUOM
 
                             </h1>
                             <p className='text-white text-base hidden md:block mt-1 italic  justify-center'>Avec SUP'PTIC LEGACY, Réécrivons l'histoire et créons un héritage </p>

@@ -29,7 +29,7 @@ const OurServices = () => {
 
     const services = [
         { id: 1, Title: "PLAN ACADEMIQUE", action1: "Séminaires d'orientations", action2: "Concours Projets", action3: "Information sur les projets extra scolaires", action4: "Assistance et suivi des étudiants(L1, L2 et L3 classique et alternance) pendant les sessions normales ", action5: "Accompagnement lors des PFE pour les Licence 3 ", action6: "Assistance à l’obtention de bourses d'études", action7: "Accompagnement des L3 ET Master 2 pour les journées de soutenances", actions8: "Bon de réduction pour les photocopies de cours et TD", actions9: "Ajout des access point pour la connexion internet", image: service1 },
-        { id: 2, Title: "PLAN PROFESSIONNEL", action1: "Présentation des startups", action2: "Visite d’entreprise", action3: "Excursion dans un centre touristique et en entreprise", action4: "Présentation des différentes opportunités de création d’entreprises", action5: "Stages académiques et professionnels avec nos partenaires", action6: "Assistance à l’obtention de bourses academiques", action7: "Facilitation pour les certifications Microsoft", image: service2 },
+        { id: 2, Title: "PLAN PROFESSIONNEL", action1: "Présentation des startups", action2: "Visite d’entreprise", action3: "Excursion dans un centre touristique et en entreprise", action4: "Présentation des différentes opportunités de création d’entreprises", action5: "Stages académiques et professionnels avec nos partenaires", action6: "Assistance à l’obtention de bourses academiques", action7: "Facilitation pour les certifications Microsoft",action8:"Assistance pour la recherche de financement" ,image: service2 },
 
         { id: 3, Title: "PLAN SOCIO-CULTUREL", action1: "Journée porte ouverte", action2: "Journée culturelle", action3: "Valorisation des différents clubs à travers nos partenaires", action4: "Organisation des journées campus propres", action5: "Conférence sur les TICs, le numérique et les innovations.", action6: "Visite d’un site culturelle ", action7: "Bal de fin d’année ", action8: "Changement de rideaux dans les salles de classe", image: service3 },
 
@@ -44,8 +44,8 @@ const OurServices = () => {
             { id: 3, Title: "Organisation d'un mini-tournoi de football masculin et féminin", image: service3 },
             { id: 4, Title: "Nettoyage général du campus", image: service3 },
             { id: 5, Title: "Éclairage des toilettes", image: service3 },
-            { id: 6, Title: "Installation de 3 lampadaires pour éclairer le complexe sportif", image: service3 },
-            { id: 7, Title: "Accompagnement du club informatique avec un serveur dédié offert", image: service3 },
+            { id: 6, Title: "Installation de trois lampadaires pour éclairer le complexe sportif", image: service3 },
+            { id: 7, Title: "Accompagnement du club informatique avec un serveur dédié offert et un nom de domaine", image: service3 },
             { id: 8, Title: "Bon de réduction pour les photocopies de cours et travaux dirigés", image: service3 },
             { id: 9, Title: "Assistance dans la préparation des contrôles continus pour les étudiants de niveau 1 et 2", image: service3 },
             { id: 10, Title: "Installation de réglettes dans les classes de ITT3RC et Master 1 IT", image: service3 },
