@@ -30,9 +30,7 @@ const OurServices = () => {
     const services = [
         { id: 1, Title: "PLAN ACADEMIQUE", action1: "Organiser des séminaires d'orientations", action2: "Organiser des challenges au sein des clubs", action3: "Encourager les étudiants à participer challenges numériques nationaux et Internationaux", action4: "Assister et suivre les étudiants(L1, L2 et L3 classique et alternance) pendant les sessions normales ", action5: "Accompagner les étudiants de Licence 3 pendant les PFE", action6: "Assistance à l’obtention de bourses d'études", action7: "Accompagnement des L3 ET Master 2 pour les journées de soutenances", actions8: "Bon de réduction pour les photocopies de cours et TD et relancer la reprographie", actions9: "Ajouter des access point pour la connexion internet",actions10:"Militer pour un barbillerd numérique auprès du conseil d'administration", image: service1 },
         { id: 2, Title: "PLAN PROFESSIONNEL", action1: "Suivre et accompagner les étudiants par les startups partenaires",   action5: "Faciliter les stages académiques et professionnels avec nos partenaires", action7: "Faciliter l'accès aux certifications Microsoft, AWS et Google",action8:"Assister les étudiants pour la recherche de financement" ,image: service2 },
-
         { id: 3, Title: "PLAN SOCIO-CULTUREL", action1: "Organiser une journée porte ouverte", action2: "Organiser une Journée traditionnelle", action3: "Redynamiser les clubs", action4: "Organiser des journées campus propres et primer la salle la plus propre", action5: "Organiser une conférence sur les TICs, le numérique et les innovations.",  action6: "Organiser une excursion touristique ", action7: "Organiser un bal de fin d’année ", action8: "Renouveler les rideaux dans les salles de classe",action9:"Promouvoir le parrainnage gratuit",action10:"Promouvoir une journée otaku", image: service3 },
-
         { id: 4, Title: "PLAN SPORTIF", action1: "Organiser la Coupe du directeur  (Masculin et Féminin) ", action3: "Organiser le championnat de football Féminin et Masculin", action4: "Organiser des matchs inter-écoles.", action5: "Organiser un championnat de basketball", action6: "Accompagner les athlètes pendant les qualifications pour les jeux universitaires ", action7: "Organiser un championnat d'échecs et de dames", image: service4 },
 
     ]
@@ -99,7 +97,7 @@ const OurServices = () => {
                     initial={{ opacity: 0, y: -200 }}
                     transition={{ duration: 1.5 }}
 
-                    className='text-4xl text-white mt-4  mb-36 md:mb-4 font-semibold'>
+                    className='text-4xl text-white mt-4  mb-48 md:mb-4 font-semibold'>
                     NOTRE PLAN D'ACTION
                 </h2>
                 <motion.p
