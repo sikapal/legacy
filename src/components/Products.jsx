@@ -30,13 +30,13 @@ const Products = () => {
                             <motion.div whileInView={{ opacity: 1, x: 0 }}
                                 initial={{ opacity: 0, x: 200 }}
                                 transition={{ duration: 2 }}>
-                                <h2 className='text-4xl text-red-700 font-semibold mb-4 md:w-4/5'> Message du PDG de Coveriot SARL</h2>
+                                <h2 className='text-4xl text-red-700 font-semibold mb-4 md:w-4/5'> Message du PDG de NET-TELECOM</h2>
                                 <p className='md:w-3/4 text-sm text-white mb-8 text-justify'>
-                                    En tant que PDG de Coveriot, je tiens à exprimer tout notre soutien à l’initiative <span className='font-bold'>Legacy</span>,
+                                    En tant que PDG de nET TELECOM, je tiens à exprimer tout notre soutien à l’initiative <span className='font-bold'>Legacy</span>,
                                     une vision ambitieuse qui incarne la collaboration, l’innovation et le progrès.
-                                    Chez Coveriot, nous partageons ces valeurs et nous croyons fermement en l’importance de bâtir un avenir où chaque talent peut s’épanouir pleinement.
+                                    Chez NETS, nous partageons ces valeurs et nous croyons fermement en l’importance de bâtir un avenir où chaque talent peut s’épanouir pleinement.
 
-                                    Coveriot, en tant qu'acteur dans les domaines des Télécommunications, de l’Informatique,
+                                    NETS, en tant qu'acteur dans les domaines des Télécommunications, de l’Informatique,
                                     des Technologies émergentes du numérique, et des Systèmes et Services de l'Internet des Objets,
                                     s'engage à jouer un rôle actif dans cet écosystème. Nous sommes également spécialistes des Réseaux d’Objets,
                                     et notre expertise nous permet de relever des défis technologiques de pointe.
@@ -47,8 +47,8 @@ const Products = () => {
 
                                     Par ce soutien, nous réaffirmons notre volonté de construire un avenir où la jeunesse, formée et inspirée, devient la pierre angulaire du développement
                                     durable et de la transformation numérique. Ensemble avec Legacy, réecrivons l'histoire et créons un héritage! !</p>
-                                <h5 className='text-white text-sm font-semibold mb-4'>ABOUBAKRY ASSIDDIGOU</h5>
-                                <p className='text-base text-white mb-8 font-bold'>PDG COVERIOT SARL</p>
+                                <h5 className='text-white text-sm font-semibold mb-4'>KEVIN HERMAN</h5>
+                                <p className='text-base text-white mb-8 font-bold'>PDG NET TELECOM</p>
 
                             </motion.div>
                         </div>
